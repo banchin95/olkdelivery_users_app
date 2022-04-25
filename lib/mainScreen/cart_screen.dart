@@ -48,7 +48,7 @@ class _CartScreenState extends State<CartScreen>
       appBar: AppBar(
         flexibleSpace: Container(
           decoration: const BoxDecoration(
-            color: Colors.blueGrey,
+            color: Colors.lightGreen,
           ),
         ),
         leading: IconButton(
@@ -63,13 +63,13 @@ class _CartScreenState extends State<CartScreen>
           text: const TextSpan(
             style: TextStyle(
               fontSize: 25,
-              fontFamily: "Righteous",
+              fontFamily: "Jost",
               letterSpacing: 3,
               fontWeight: FontWeight.bold,
             ),
             children: <TextSpan> [
-              TextSpan(text: "OLK", style: TextStyle(color: Colors.white),),
-              TextSpan(text: "DELIVERY", style: TextStyle(color: Colors.orange),),
+              TextSpan(text: "Нужные", style: TextStyle(color: Colors.white),),
+              TextSpan(text: " Люди", style: TextStyle(color: Colors.yellow),),
             ],
           ),
         ),
