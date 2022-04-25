@@ -16,7 +16,7 @@ class MyDrawer extends StatelessWidget
   Widget build(BuildContext context)
   {
     return Drawer(
-      backgroundColor: Color.fromRGBO(50, 75, 205, 1),
+      backgroundColor: Colors.green,
       child: ListView(
         children: [
           //header drawer

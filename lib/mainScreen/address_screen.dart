@@ -32,7 +32,7 @@ class _AddressScreenState extends State<AddressScreen>
         ),
         flexibleSpace: Container(
           decoration: const BoxDecoration(
-            color: Colors.blueGrey,
+            color: Colors.lightGreen,
           ),
         ),
         automaticallyImplyLeading: true,
@@ -40,13 +40,13 @@ class _AddressScreenState extends State<AddressScreen>
           text: const TextSpan(
             style: TextStyle(
               fontSize: 25,
-              fontFamily: "Righteous",
+              fontFamily: "Jost",
               letterSpacing: 3,
               fontWeight: FontWeight.bold,
             ),
             children: <TextSpan> [
-              TextSpan(text: "OLK", style: TextStyle(color: Colors.white),),
-              TextSpan(text: "DELIVERY", style: TextStyle(color: Colors.orange),),
+              TextSpan(text: "Сохраненные", style: TextStyle(color: Colors.white),),
+              TextSpan(text: " адреса", style: TextStyle(color: Colors.yellow),),
             ],
           ),
         ),

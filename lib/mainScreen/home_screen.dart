@@ -22,9 +22,9 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen>
 {
   final items = [
-    "slider/0.jpg",
-    "slider/1.jpg",
-    "slider/2.jpg",
+    "slider/0.jpeg",
+    "slider/1.jpeg",
+    "slider/2.jpeg",
   ];
 
   RestrictBlockedUsersFromUsingApp() async
@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen>
       appBar: AppBar(
         flexibleSpace: Container(
           decoration: const BoxDecoration(
-            color: Colors.blueGrey,
+            color: Colors.lightGreen,
           ),
         ),
         automaticallyImplyLeading: true,
@@ -70,13 +70,13 @@ class _HomeScreenState extends State<HomeScreen>
           text: const TextSpan(
             style: TextStyle(
               fontSize: 25,
-              fontFamily: "Righteous",
+              fontFamily: "Jost",
               letterSpacing: 3,
               fontWeight: FontWeight.bold,
             ),
             children: <TextSpan> [
-              TextSpan(text: "OLK", style: TextStyle(color: Colors.white),),
-              TextSpan(text: "DELIVERY", style: TextStyle(color: Colors.orange),),
+              TextSpan(text: "Нужные", style: TextStyle(color: Colors.white),),
+              TextSpan(text: " Люди", style: TextStyle(color: Colors.yellow),),
             ],
           ),
         ),
@@ -100,8 +100,8 @@ class _HomeScreenState extends State<HomeScreen>
                     enableInfiniteScroll: true,
                     reverse: false,
                     autoPlay: true,
-                    autoPlayInterval: const Duration(seconds: 2),
-                    autoPlayAnimationDuration: const Duration(milliseconds: 500),
+                    autoPlayInterval: const Duration(seconds: 8),
+                    autoPlayAnimationDuration: const Duration(milliseconds: 900),
                     autoPlayCurve: Curves.decelerate,
                     enlargeCenterPage: true,
                     scrollDirection: Axis.horizontal,

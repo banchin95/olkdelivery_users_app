@@ -59,29 +59,29 @@ class _MySplashScreenState extends State<MySplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
-                padding: const EdgeInsets.all(18.0),
+                padding: const EdgeInsets.all(30.0),
                 child: Image.asset("images/welcome.png"),
               ),
 
               const SizedBox(height: 10,),
 
-             Padding(
-                padding: const EdgeInsets.all(18.0),
-                child: RichText(
-                    text: const TextSpan(
-                      style: TextStyle(
-                        fontSize: 45,
-                        fontFamily: "Righteous",
-                        letterSpacing: 3,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      children: <TextSpan> [
-                        TextSpan(text: "OLK", style: TextStyle(color: Colors.black),),
-                        TextSpan(text: "DELIVERY", style: TextStyle(color: Colors.orangeAccent),),
-                      ],
-                    ),
-                ),
-              ),
+             // Padding(
+             //    padding: const EdgeInsets.all(18.0),
+             //    child: RichText(
+             //        text: const TextSpan(
+             //          style: TextStyle(
+             //            fontSize: 45,
+             //            fontFamily: "Righteous",
+             //            letterSpacing: 3,
+             //            fontWeight: FontWeight.bold,
+             //          ),
+             //          children: <TextSpan> [
+             //            TextSpan(text: "OLK", style: TextStyle(color: Colors.black),),
+             //            TextSpan(text: "DELIVERY", style: TextStyle(color: Colors.orangeAccent),),
+             //          ],
+             //        ),
+             //    ),
+             //  ),
             ],
           ),
         ),

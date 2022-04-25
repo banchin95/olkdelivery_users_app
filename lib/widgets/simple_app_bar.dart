@@ -22,7 +22,7 @@ class SimpleAppBar extends StatelessWidget with PreferredSizeWidget
       ),
       flexibleSpace: Container(
         decoration: const BoxDecoration(
-          color: Colors.blueGrey,
+          color: Colors.lightGreen,
         ),
       ),
       automaticallyImplyLeading: true,
@@ -31,8 +31,8 @@ class SimpleAppBar extends StatelessWidget with PreferredSizeWidget
         text: TextSpan(
           children: <TextSpan>
           [
-            TextSpan(text: title1!, style: const TextStyle(color: Colors.white, fontSize: 25,fontFamily: "Righteous", letterSpacing: 3, fontWeight: FontWeight.bold,),),
-            TextSpan(text: title2!, style: const TextStyle(color: Colors.orange, fontSize: 25,fontFamily: "Righteous", letterSpacing: 3, fontWeight: FontWeight.bold,),),
+            TextSpan(text: title1!, style: const TextStyle(color: Colors.white, fontSize: 25,fontFamily: "Jost", letterSpacing: 3, fontWeight: FontWeight.bold,),),
+            TextSpan(text: title2!, style: const TextStyle(color: Colors.yellow, fontSize: 25,fontFamily: "Jost", letterSpacing: 3, fontWeight: FontWeight.bold,),),
           ],
         ),
       ),
