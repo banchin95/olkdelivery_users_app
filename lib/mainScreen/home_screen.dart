@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen>
                     enableInfiniteScroll: true,
                     reverse: false,
                     autoPlay: true,
-                    autoPlayInterval: const Duration(seconds: 8),
+                    autoPlayInterval: const Duration(seconds: 3),
                     autoPlayAnimationDuration: const Duration(milliseconds: 900),
                     autoPlayCurve: Curves.decelerate,
                     enlargeCenterPage: true,

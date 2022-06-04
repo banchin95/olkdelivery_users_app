@@ -88,8 +88,8 @@ class _PlacedOrderScreenState extends State<PlacedOrderScreen>
         decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Colors.blueGrey,
-                Colors.amber,
+                Colors.white,
+                Colors.yellowAccent,
               ],
               begin:  FractionalOffset(0.0, 0.0),
               end:  FractionalOffset(1.0, 0.0),
@@ -101,14 +101,14 @@ class _PlacedOrderScreenState extends State<PlacedOrderScreen>
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
 
-            Image.asset("images/delivery.jpg"),
+            Image.asset("images/login.png"),
 
             const SizedBox(height: 12,),
 
             ElevatedButton(
-              child: const Text("Разместить заказ"),
+              child: const Text("Разместить заказ", style: TextStyle(fontSize: 30, fontFamily: "Jost"),),
               style: ElevatedButton.styleFrom(
-                primary: Colors.cyan,
+                primary: Colors.green,
               ),
               onPressed: ()
               {
