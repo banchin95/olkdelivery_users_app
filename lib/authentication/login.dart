@@ -209,7 +209,7 @@ class _LoginScreenState extends State<LoginScreen>
                     style: TextStyle(color: Colors.black,),),
                   TextSpan(text: "политикой конфиденциальности.",
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.blue,m
                     ),
                     recognizer: TapGestureRecognizer()
                       ..onTap = ()
